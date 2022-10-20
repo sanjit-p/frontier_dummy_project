@@ -1,0 +1,15 @@
+kind: vectorization_conf
+operations:
+  breast-cancer.csv:
+    functions:
+      standardize:
+        Id: {}
+        Cl.thickness: {}
+        Cell.size: {}
+        Cell.shape: {}
+        Marg.adhesion: {}
+        Epith.c.size: {}
+        Bare.nuclei: {}
+        Bl.cromatin: {}
+        Normal.nucleoli: {}
+        Mitoses: {}
